@@ -1,4 +1,4 @@
-# Efficient AWS Cost Management by Identifying and Removing Unused Resources
+# AWS Cost Management by Identifying and Removing Unused Resources
 
 # Problem:
 Developers often create EC2 instances with attached volumes for backup purposes. Alongside these, snapshots are also created for backup. However, when an EC2 instance is terminated, developers sometimes overlook deleting its corresponding snapshots. This leads to continued costs for unused snapshots, even though they are no longer necessary.
